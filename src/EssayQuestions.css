@@ -1,0 +1,49 @@
+/* EssayQuestions.css */
+.essay-questions {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Add a light border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+.question {
+    margin-bottom: 20px; /* Space between question and button */
+}
+
+label {
+    display: block; /* Make labels block elements for better layout */
+    margin-bottom: 5px; /* Space between label and textarea */
+    font-weight: bold; /* Bold labels for emphasis */
+}
+
+textarea {
+    width: 100%; /* Full width for textareas */
+    padding: 10px; /* Padding inside textareas */
+    border: 1px solid #ccc; /* Border for textareas */
+    border-radius: 4px; /* Rounded corners for textareas */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.submit-button {
+    display: block; /* Center button */
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding for button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text on button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Increase font size */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
